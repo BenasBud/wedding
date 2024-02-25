@@ -12,7 +12,7 @@ body {
   margin: 0;
   -webkit-perspective: 1000;
   font-family: "Poppins", sans-serif;
-  background: #303030;
+  background: #f9f5f2;
 }
 
 body,
@@ -361,7 +361,7 @@ address p {
 }
 
 .countdown li {
-  color: #ffffff;
+  color: #545454;
   list-style: none;
   display: inline-block;
   margin: 0 20px;
@@ -421,7 +421,7 @@ address p {
 }
 
 .main-img {
-  height: 75%;
+  height: 65%;
   width: 100%;
   object-fit: contain;
 }
@@ -432,6 +432,8 @@ address p {
 
 .register button {
   padding: 15px 45px;
+  background-color: #ffffff;
+  border-color: #000000;
 }
 
 /*---------------------------------------
@@ -470,7 +472,7 @@ address p {
   }
 
   .main-img {
-    height: 65%;
+    height: 55%;
   }
   
 }
