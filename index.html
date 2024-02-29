@@ -12,56 +12,95 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/templatemo-style.css" />
   </head>
+  
   <body>
-    <!-- HOME -->
-    <section id="home">
-      <div class="container">
+    <main class="h-100 pb-3">
+      <img class="flower" src="images/flower.svg" />
+      <h4 class="inviation-side">KVIEČIA Į VESTUVES</h4>
+      <h2 class="date-side ps-3">2024 | 10 | 19</h2>
+
+      <div class="container h-75">
+        <div class="row text-center names-container">
+          <h2>Benas ir Marija</h2>
+        </div>
         <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="home-info">
-              <img class="main-img" src="images/main-image.png" />
-
-              <ul class="countdown">
-                <li>
-                  <span class="days">14</span>
-                  <h3>Dienos</h3>
-                </li>
-                <li>
-                  <span class="hours">10</span>
-                  <h3>valandos</h3>
-                </li>
-                <li>
-                  <span class="minutes">15</span>
-                  <h3>minutės</h3>
-                </li>
-                <li>
-                  <span class="seconds">34</span>
-                  <h3>sekundės</h3>
-                </li>
-              </ul>
-
-              <div class="register mt-2">
-                <button id="register-btn" type="button" class="btn">
-                  Registruotis
-                </button>
-              </div>
-
-              <div id="registration-form"></div>
+          <div class="col-5 text-center p-2">
+            <p class="bold-text">11:00 CEREMONIJA</p>
+            <p class="bold-text">
+              KRISTAUS KARALIAUS IR ŠV. KŪDIKĖLIO JĖZAUS BAŽNYČIOJE
+            </p>
+            <a
+              href="https://www.google.com/maps/place/54%C2%B040'23.2%22N+25%C2%B021'28.2%22E/@54.673099,25.3572842,227m/data=!3m1!1e3!4m4!3m3!8m2!3d54.673102!4d25.357834?entry=ttu"
+              target="_blank"
+              >ADRESAS: ŠVARIOJI G. 3, VILNIUS</a
+            >
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <div class="vr"></div>
+          </div>
+          <div class="col-5 text-center p-2">
+            <p class="bold-text">16:00 ŠVENTINIS POBŪVIS</p>
+            <p class="bold-text">"VARNUPĖ" SODYBOJE</p>
+            <a
+              href="https://www.google.com/maps/place/VARNUP%C4%96,+sodyba/@55.2801553,23.7895861,533m/data=!3m1!1e3!4m6!3m5!1s0x46e6f8153fe66c99:0xf0c83b46477da872!8m2!3d55.2800911!4d23.7910836!16s%2Fg%2F11c1r2xr0s?entry=ttu"
+              target="_blank"
+              >ADRESAS: VARNUPĖS K. 1A, JOSVAINIŲ SEN., KĖDAINIŲ R.</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="countdown">
+              <li>
+                <span class="days">14</span>
+                <h3>Dienos</h3>
+              </li>
+              <li>
+                <span class="hours">10</span>
+                <h3>valandos</h3>
+              </li>
+              <li>
+                <span class="minutes">15</span>
+                <h3>minutės</h3>
+              </li>
+              <li>
+                <span class="seconds">34</span>
+                <h3>sekundės</h3>
+              </li>
+            </ul>
+            <div class="d-flex pb-3 justify-content-center">
+              <button
+                id="register-btn"
+                type="button"
+                class="btn btn-light register-button"
+              >
+                Svečio anketa
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </main>
 
     <!-- SCRIPTS -->
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/init.js"></script>
     <script src="js/custom.js"></script>
