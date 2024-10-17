@@ -21,12 +21,4 @@
   //     timer: false,
   //     transition: [ 'zoomOut', ]
   // });
-
-  $("#register-btn").on("click", function () {
-    window.open(
-      "https://forms.gle/Luhtx6XMvwQtUTwn6",
-      "_blank",
-      "noopener,noreferrer"
-    );
-  });
 })(jQuery);
